@@ -1,0 +1,20 @@
+@import "./firefox-csshacks/chrome/combined_favicon_and_tab_close_button.css";
+@import "./firefox-csshacks/chrome/centered_statuspanel.css";
+@import "./firefox-csshacks/chrome/compact_extensions_panel.css";
+@import "./firefox-csshacks/chrome/iconized_main_menu.css";
+@import "./firefox-csshacks/chrome/context_menus_more_proton.css";
+@import "./firefox-csshacks/chrome/fake_tab_tooltip.css";
+@import "./firefox-csshacks/chrome/hide_tabs_scrollbuttons.css";
+@import "./firefox-csshacks/chrome/inline_tab_audio_icons.css";
+@import "./firefox-csshacks/chrome/integrated_searchbar_popup.css";
+@import "./firefox-csshacks/chrome/minimal_text_fields.css";
+@import "./firefox-csshacks/chrome/more_visible_tab_icon.css";
+@import "./firefox-csshacks/chrome/more_visible_bookmark_icon.css";
+@import "./firefox-csshacks/chrome/round_ui_items.css";
+@import "./firefox-csshacks/chrome/rounded_menupopups.css";
+@import "./firefox-csshacks/chrome/vertical_bookmarks_toolbar.css";
+
+/* @import "./firefox-csshacks/chrome/icon_only_tabs.css"; */
+/*@import "./firefox-csshacks/chrome/urlbar_connection_type_text_colors.css";*/
+
+@import "./OnelineProton/userChrome.css"

@@ -1,0 +1,123 @@
+:root {
+  --rosewater: #f4dbd6;
+  --flamingo: #f0c6c6;
+  --pink: #f5bde6;
+  --mauve: #c6a0f6;
+  --red: #ed8796;
+  --maroon: #ee99a0;
+  --peach: #f5a97f;
+  --yellow: #eed49f;
+  --green: #a6da95;
+  --teal: #8bd5ca;
+  --sky: #91d7e3;
+  --sapphire: #7dc4e4;
+  --blue: #8aadf4;
+  --lavender: #b7bdf8;
+  --text: #cad3f5;
+  --subtext1: #b8c0e0;
+  --subtext0: #a5adcb;
+  --overlay2: #939ab7;
+  --overlay1: #8087a2;
+  --overlay0: #6e738d;
+  --surface2: #5b6078;
+  --surface1: #494d64;
+  --surface0: #363a4f;
+  --base: #24273a;
+  --mantle: #1e2030;
+  --crust: #181926;
+
+  --translucent-rosewater: rgba(244, 219, 214, 0.1);
+  --translucent-flamingo: rgba(240, 198, 198, 0.1);
+  --translucent-pink: rgba(245, 189, 230, 0.1);
+  --translucent-mauve: rgba(198, 160, 246, 0.1);
+  --translucent-red: rgba(237, 135, 150, 0.1);
+  --translucent-maroon: rgba(238, 153, 160, 0.1);
+  --translucent-peach: rgba(245, 169, 127, 0.1);
+  --translucent-yellow: rgba(238, 212, 159, 0.1);
+  --translucent-green: rgba(166, 218, 149, 0.1);
+  --translucent-teal: rgba(139, 213, 202, 0.1);
+  --translucent-sky: rgba(145, 215, 227, 0.1);
+  --translucent-sapphire: rgba(125, 196, 228, 0.1);
+  --translucent-blue: rgba(138, 173, 244, 0.1);
+  --translucent-lavender: rgba(183, 189, 248, 0.1);
+  --translucent-text: rgba(202, 211, 245, 0.1);
+  --translucent-subtext1: rgba(184, 192, 224, 0.1);
+  --translucent-subtext0: rgba(165, 173, 203, 0.1);
+  --translucent-overlay2: rgba(147, 154, 183, 0.1);
+  --translucent-overlay1: rgba(128, 135, 162, 0.1);
+  --translucent-overlay0: rgba(110, 115, 141, 0.1);
+  --translucent-surface2: rgba(91, 96, 120, 0.1);
+  --translucent-surface1: rgba(73, 77, 100, 0.1);
+  --translucent-surface0: rgba(54, 58, 79, 0.1);
+  --translucent-base: rgba(36, 39, 58, 0.1);
+  --translucent-mantle: rgba(30, 32, 48, 0.1);
+  --translucent-crust: rgba(24, 25, 38, 0.1);
+
+  --barelyvisible-rosewater: rgba(244, 219, 214, 0.1);
+  --barelyvisible-flamingo: rgba(240, 198, 198, 0.1);
+  --barelyvisible-pink: rgba(245, 189, 230, 0.1);
+  --barelyvisible-mauve: rgba(198, 160, 246, 0.1);
+  --barelyvisible-red: rgba(237, 135, 150, 0.1);
+  --barelyvisible-maroon: rgba(238, 153, 160, 0.1);
+  --barelyvisible-peach: rgba(245, 169, 127, 0.1);
+  --barelyvisible-yellow: rgba(238, 212, 159, 0.1);
+  --barelyvisible-green: rgba(166, 218, 149, 0.1);
+  --barelyvisible-teal: rgba(139, 213, 202, 0.1);
+  --barelyvisible-sky: rgba(145, 215, 227, 0.1);
+  --barelyvisible-sapphire: rgba(125, 196, 228, 0.1);
+  --barelyvisible-blue: rgba(138, 173, 244, 0.1);
+  --barelyvisible-lavender: rgba(183, 189, 248, 0.1);
+  --barelyvisible-text: rgba(202, 211, 245, 0.1);
+  --barelyvisible-subtext1: rgba(184, 192, 224, 0.1);
+  --barelyvisible-subtext0: rgba(165, 173, 203, 0.1);
+  --barelyvisible-overlay2: rgba(147, 154, 183, 0.1);
+  --barelyvisible-overlay1: rgba(128, 135, 162, 0.1);
+  --barelyvisible-overlay0: rgba(110, 115, 141, 0.1);
+  --barelyvisible-surface2: rgba(91, 96, 120, 0.1);
+  --barelyvisible-surface1: rgba(73, 77, 100, 0.1);
+  --barelyvisible-surface0: rgba(54, 58, 79, 0.1);
+  --barelyvisible-base: rgba(36, 39, 58, 0.1);
+  --barelyvisible-mantle: rgba(30, 32, 48, 0.1);
+  --barelyvisible-crust: rgba(24, 25, 38, 0.1);
+}
+
+/* background */
+
+.promoted-navigation,
+.bitesize-parents-teachers-journey,
+.layout-pocket {
+  background: transparent !important;
+}
+
+* {
+  border-color: var(--translucent-pink) !important;
+  color: var(--text) !important;
+  background: var(--crust) !important;
+  background-image: none !important;
+  text-decoration-color: var(--blue) !important;
+}
+
+img,
+input,
+button {
+  border-radius: 20px !important;
+}
+
+button {
+  margin-left: 10px;
+}
+
+a:hover {
+  color: var(--yellow) !important;
+}
+
+*::after,
+*::before {
+  filter: invert(42%) sepia(93%) saturate(100%) hue-rotate(4deg)
+    brightness(150%) contrast(119%);
+}
+
+header svg {
+  background: transparent !important;
+  filter: invert(100) brightness(500%);
+}
