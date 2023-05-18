@@ -32,3 +32,7 @@ These are the edits appilied to darker themes (mocha, frappe, macchiato) within 
 #### Catppuccin Frappe
 
 ![](./assets/catppuccin-frappe.png)
+
+#### Catppuccin Latte
+
+![](./assets/catppuccin-latte.png)
