@@ -10,8 +10,8 @@ Might try to conditionally enable styles depending on theme (light/dark) selecte
 
 #### Catppuccin Mocha (WIP)
 
-- [ ] Search and left panel buttons are unstyled.
-- [ ] Button hovers are unstyled.
+- [x] Search and left panel buttons are unstyled.
+- [x] Button hovers are unstyled.
 - [ ] Space select outline is unstyled.
 - [ ] Need to hunt down the remains of Element green.
 

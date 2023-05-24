@@ -1,461 +1,501 @@
 :root {
-  --rosewater: #f5e0dc;
-  --flamingo: #f2cdcd;
-  --pink: #f5c2e7;
-  --mauve: #cba6f7;
-  --red: #f38ba8;
-  --maroon: #eba0ac;
-  --peach: #fab387;
-  --yellow: #f9e2af;
-  --green: #a6e3a1;
-  --teal: #94e2d5;
-  --sky: #89dceb;
-  --sapphire: #74c7ec;
-  --blue: #89b4fa;
-  --lavender: #b4befe;
-  --text: #cdd6f4;
-  --subtext1: #bac2de;
-  --subtext0: #a6adc8;
-  --overlay2: #9399b2;
-  --overlay1: #7f849c;
-  --overlay0: #6c7086;
-  --surface2: #585b70;
-  --surface1: #45475a;
-  --surface0: #313244;
-  --base: #1e1e2e;
-  --mantle: #181825;
-  --crust: #11111b;
+    --rosewater: #f5e0dc;
+    --flamingo: #f2cdcd;
+    --pink: #f5c2e7;
+    --mauve: #cba6f7;
+    --red: #f38ba8;
+    --maroon: #eba0ac;
+    --peach: #fab387;
+    --yellow: #f9e2af;
+    --green: #a6e3a1;
+    --teal: #94e2d5;
+    --sky: #89dceb;
+    --sapphire: #74c7ec;
+    --blue: #89b4fa;
+    --lavender: #b4befe;
+    --text: #cdd6f4;
+    --subtext1: #bac2de;
+    --subtext0: #a6adc8;
+    --overlay2: #9399b2;
+    --overlay1: #7f849c;
+    --overlay0: #6c7086;
+    --surface2: #585b70;
+    --surface1: #45475a;
+    --surface0: #313244;
+    --base: #1e1e2e;
+    --mantle: #181825;
+    --crust: #11111b;
 
-  --translucent-rosewater: rgba(245, 224, 220, 0.8);
-  --translucent-flamingo: rgba(242, 205, 205, 0.8);
-  --translucent-pink: rgba(245, 194, 231, 0.8);
-  --translucent-mauve: rgba(203, 166, 247, 0.8);
-  --translucent-red: rgba(243, 139, 168, 0.8);
-  --translucent-maroon: rgba(235, 160, 172, 0.8);
-  --translucent-peach: rgba(250, 179, 135, 0.8);
-  --translucent-yellow: rgba(249, 226, 175, 0.8);
-  --translucent-green: rgba(166, 227, 161, 0.8);
-  --translucent-teal: rgba(148, 226, 213, 0.8);
-  --translucent-sky: rgba(137, 220, 235, 0.8);
-  --translucent-sapphire: rgba(116, 199, 236, 0.8);
-  --translucent-blue: rgba(137, 180, 250, 0.8);
-  --translucent-lavender: rgba(180, 190, 254, 0.8);
-  --translucent-text: rgba(205, 214, 244, 0.8);
-  --translucent-subtext1: rgba(186, 194, 222, 0.8);
-  --translucent-subtext0: rgba(166, 173, 200, 0.8);
-  --translucent-overlay2: rgba(147, 153, 178, 0.8);
-  --translucent-overlay1: rgba(127, 132, 156, 0.8);
-  --translucent-overlay0: rgba(108, 112, 134, 0.8);
-  --translucent-surface2: rgba(88, 91, 112, 0.8);
-  --translucent-surface1: rgba(69, 71, 90, 0.8);
-  --translucent-surface0: rgba(49, 50, 68, 0.8);
-  --translucent-base: rgba(30, 30, 46, 0.8);
-  --translucent-mantle: rgba(24, 24, 37, 0.8);
-  --translucent-crust: rgba(17, 17, 27, 0.8);
+    --translucent-rosewater: rgba(245, 224, 220, 0.8);
+    --translucent-flamingo: rgba(242, 205, 205, 0.8);
+    --translucent-pink: rgba(245, 194, 231, 0.8);
+    --translucent-mauve: rgba(203, 166, 247, 0.8);
+    --translucent-red: rgba(243, 139, 168, 0.8);
+    --translucent-maroon: rgba(235, 160, 172, 0.8);
+    --translucent-peach: rgba(250, 179, 135, 0.8);
+    --translucent-yellow: rgba(249, 226, 175, 0.8);
+    --translucent-green: rgba(166, 227, 161, 0.8);
+    --translucent-teal: rgba(148, 226, 213, 0.8);
+    --translucent-sky: rgba(137, 220, 235, 0.8);
+    --translucent-sapphire: rgba(116, 199, 236, 0.8);
+    --translucent-blue: rgba(137, 180, 250, 0.8);
+    --translucent-lavender: rgba(180, 190, 254, 0.8);
+    --translucent-text: rgba(205, 214, 244, 0.8);
+    --translucent-subtext1: rgba(186, 194, 222, 0.8);
+    --translucent-subtext0: rgba(166, 173, 200, 0.8);
+    --translucent-overlay2: rgba(147, 153, 178, 0.8);
+    --translucent-overlay1: rgba(127, 132, 156, 0.8);
+    --translucent-overlay0: rgba(108, 112, 134, 0.8);
+    --translucent-surface2: rgba(88, 91, 112, 0.8);
+    --translucent-surface1: rgba(69, 71, 90, 0.8);
+    --translucent-surface0: rgba(49, 50, 68, 0.8);
+    --translucent-base: rgba(30, 30, 46, 0.8);
+    --translucent-mantle: rgba(24, 24, 37, 0.8);
+    --translucent-crust: rgba(17, 17, 27, 0.8);
 
-  --barelyvisible-rosewater: rgba(245, 224, 220, 0.1);
-  --barelyvisible-flamingo: rgba(242, 205, 205, 0.1);
-  --barelyvisible-pink: rgba(245, 194, 231, 0.1);
-  --barelyvisible-mauve: rgba(203, 166, 247, 0.1);
-  --barelyvisible-red: rgba(243, 139, 168, 0.1);
-  --barelyvisible-maroon: rgba(235, 160, 172, 0.1);
-  --barelyvisible-peach: rgba(250, 179, 135, 0.1);
-  --barelyvisible-yellow: rgba(249, 226, 175, 0.1);
-  --barelyvisible-green: rgba(166, 227, 161, 0.1);
-  --barelyvisible-teal: rgba(148, 226, 213, 0.1);
-  --barelyvisible-sky: rgba(137, 220, 235, 0.1);
-  --barelyvisible-sapphire: rgba(116, 199, 236, 0.1);
-  --barelyvisible-blue: rgba(137, 180, 250, 0.1);
-  --barelyvisible-lavender: rgba(180, 190, 254, 0.1);
-  --barelyvisible-text: rgba(205, 214, 244, 0.1);
-  --barelyvisible-subtext1: rgba(186, 194, 222, 0.1);
-  --barelyvisible-subtext0: rgba(166, 173, 200, 0.1);
-  --barelyvisible-overlay2: rgba(147, 153, 178, 0.1);
-  --barelyvisible-overlay1: rgba(127, 132, 156, 0.1);
-  --barelyvisible-overlay0: rgba(108, 112, 134, 0.1);
-  --barelyvisible-surface2: rgba(88, 91, 112, 0.1);
-  --barelyvisible-surface1: rgba(69, 71, 90, 0.1);
-  --barelyvisible-surface0: rgba(49, 50, 68, 0.1);
-  --barelyvisible-base: rgba(30, 30, 46, 0.1);
-  --barelyvisible-mantle: rgba(24, 24, 37, 0.1);
-  --barelyvisible-crust: rgba(17, 17, 27, 0.1);
+    --barelyvisible-rosewater: rgba(245, 224, 220, 0.1);
+    --barelyvisible-flamingo: rgba(242, 205, 205, 0.1);
+    --barelyvisible-pink: rgba(245, 194, 231, 0.1);
+    --barelyvisible-mauve: rgba(203, 166, 247, 0.1);
+    --barelyvisible-red: rgba(243, 139, 168, 0.1);
+    --barelyvisible-maroon: rgba(235, 160, 172, 0.1);
+    --barelyvisible-peach: rgba(250, 179, 135, 0.1);
+    --barelyvisible-yellow: rgba(249, 226, 175, 0.1);
+    --barelyvisible-green: rgba(166, 227, 161, 0.1);
+    --barelyvisible-teal: rgba(148, 226, 213, 0.1);
+    --barelyvisible-sky: rgba(137, 220, 235, 0.1);
+    --barelyvisible-sapphire: rgba(116, 199, 236, 0.1);
+    --barelyvisible-blue: rgba(137, 180, 250, 0.1);
+    --barelyvisible-lavender: rgba(180, 190, 254, 0.1);
+    --barelyvisible-text: rgba(205, 214, 244, 0.1);
+    --barelyvisible-subtext1: rgba(186, 194, 222, 0.1);
+    --barelyvisible-subtext0: rgba(166, 173, 200, 0.1);
+    --barelyvisible-overlay2: rgba(147, 153, 178, 0.1);
+    --barelyvisible-overlay1: rgba(127, 132, 156, 0.1);
+    --barelyvisible-overlay0: rgba(108, 112, 134, 0.1);
+    --barelyvisible-surface2: rgba(88, 91, 112, 0.1);
+    --barelyvisible-surface1: rgba(69, 71, 90, 0.1);
+    --barelyvisible-surface0: rgba(49, 50, 68, 0.1);
+    --barelyvisible-base: rgba(30, 30, 46, 0.1);
+    --barelyvisible-mantle: rgba(24, 24, 37, 0.1);
+    --barelyvisible-crust: rgba(17, 17, 27, 0.1);
 }
 
 /* backgrounds */
 /*.mx_RoomSearch {
     background: var(--translucent-base)
 }*/
-* {
-  color: var(--text);
+
+.mx_RoomPreviewBar_panel {
+    background: transparent !important;
+    border-top: 1px solid var(--blue);
 }
 
-.mx_AccessibleButton:not(.mx_LeftPanel_roomListContainer *):not(.mx_SpacePanel
-    *):hover {
-  background: var(--barelyvisible-maroon) !important;
+.mx_HomePage_default_wrapper img {
+        filter: invert(100%) hue-rotate(255deg) brightness(145%) saturate(50%)
+}
+
+.mx_RoomPreviewBar_Loading {
+    background: transparent !important;
+}
+
+* {
+    color: var(--text);
+}
+
+.mx_IconizedContextMenu_item *::before {
+    background: var(--blue) !important;
+}
+
+.mx_AccessibleButton:not(.mx_LeftPanel_roomListContainer *):not(.mx_SpacePanel *):hover {
+    background: var(--barelyvisible-maroon) !important;
 }
 
 .mx_LeftPanel_filterContainer .mx_AccessibleButton,
 .mx_RoomSearch_shortcutPrompt {
-  background: transparent !important;
+    background: transparent !important;
 }
 
 .mx_LeftPanel_filterContainer .mx_AccessibleButton:hover {
-  background: transparent;
-  border: 1px solid var(--translucent-blue);
+    background: transparent;
+    border: 1px solid var(--translucent-blue);
 }
 
 .mx_TopUnreadMessagesBar::after {
-  border-color: var(--maroon) !important;
+    border-color: var(--maroon) !important;
 }
 
 .mx_EventTile[data-layout="group"].mx_EventTile_isEditing > .mx_EventTile_line,
 .mx_EventTile[data-layout="group"].mx_EventTile_selected > .mx_EventTile_line,
 .mx_EventTile[data-layout="irc"].mx_EventTile_isEditing > .mx_EventTile_line,
 .mx_EventTile[data-layout="irc"].mx_EventTile_selected > .mx_EventTile_line {
-  box-shadow: inset var(--EventTile-box-shadow-offset-x) 0 0
-    var(--EventTile-box-shadow-spread-radius) var(--yellow);
+    box-shadow: inset var(--EventTile-box-shadow-offset-x) 0 0 var(--EventTile-box-shadow-spread-radius) var(--yellow);
 }
 
 .mx_NotificationBadge.mx_NotificationBadge_visible.mx_NotificationBadge_2char {
-  background: var(--red);
+    background: var(--red)
 }
 
 .mx_EmojiPicker_anchor::before {
-  background: var(--translucent-blue);
+    background: var(--translucent-blue)
 }
 
 .mx_EmojiPicker_anchor_visible {
-  border-color: var(--maroon);
+    border-color: var(--maroon);
 }
 
 .mx_EmojiPicker_anchor:hover {
-  border-color: var(--translucent-green) !important;
-  background-color: transparent !important;
+    border-color: var(--translucent-green) !important;
+    background-color: transparent !important;
 }
 
-.mx_RoomSublist
-  .mx_RoomSublist_resizeBox.mx_RoomSublist_hasMenuOpen
-  .mx_RoomSublist_resizerHandle,
+.mx_RoomSublist .mx_RoomSublist_resizeBox.mx_RoomSublist_hasMenuOpen .mx_RoomSublist_resizerHandle,
 .mx_RoomSublist .mx_RoomSublist_resizeBox:hover .mx_RoomSublist_resizerHandle,
 .mx_ResizeHandle_horizontal::before {
-  background-color: var(--lavender) !important;
+    background-color: var(--lavender) !important;
 }
 
 .mx_RoomTile_selected,
 .mx_RoomTile:hover {
-  background: var(--base) !important;
+    background: var(--base) !important;
 }
 
-.mx_AccessibleButton:not(.mx_MessageComposer_sendMessage):not(.mx_QuickSettingsButton):not(.mx_RightPanel_headerButton_highlight)::before {
-  background: var(--barelyvisible-mauve) !important;
+ .mx_RoomHeader_wrapper .mx_AccessibleButton::before {
+    background: var(--barelyvisible-mauve) !important;
 }
 
 .mx_RightPanel_headerButton:hover::before,
 .mx_RightPanel_headerButton_highlight::before {
-  background: var(--translucent-maroon) !important;
+    background: var(--translucent-maroon) !important;
 }
 
 .mx_MessageComposer_sendMessage {
-  background: var(--red);
+    background: var(--red);
 }
 
 .mx_MessageComposer_sendMessage::before {
-  background: var(--rosewater);
+    background: var(--rosewater);
 }
 
 .mx_SpacePanel {
-  background: var(--crust);
+    background: var(--crust);
 }
 
 .mx_LeftPanel_wrapper .mx_LeftPanel_wrapper--user {
-  background: var(--mantle);
+    background: var(--mantle);
 }
 
 .mx_RoomView_wrapper .mx_SpaceRoomView {
-  background: var(--base);
+    background: var(--base);
 }
 
 .mx_RightPanel,
 .mx_ContextualMenu {
-  background: var(--mantle);
+    background: var(--mantle) !important;
 }
 
 .mx_RoomSummaryCard_e2ee::before {
-  background: var(--red) !important;
+    background: var(--red) !important;
 }
 
 .mx_RoomSummaryCard_e2ee_normal::before {
-  background: var(--lavender) !important;
+    background: var(--lavender) !important;
 }
 
 .mx_RoomSummaryCard_e2ee {
-  background: var(--surface0) !important;
-  border-color: var(--surface0) !important;
+    background: var(--surface0) !important;
+    border-color: var(--surface0) !important;
 }
 
 .mx_QuickSettingsButton::before {
-  background-color: var(--blue) !important;
+    background-color: var(--blue) !important;
 }
 
 .mx_AccessibleButton {
-  color: var(--subtext1) !important;
+    color: var(--subtext1) !important;
 }
 
 .mx_AccessibleButton_kind_primary_outline,
 .mx_Dialog_buttons_row button {
-  border-color: var(--blue) !important;
+    border-color: var(--blue) !important;
 }
 
 .mx_Dialog_buttons_row .mx_Dialog_primary {
-  background: var(--blue) !important;
-  color: var(--crust) !important;
+    background: var(--blue) !important;
+    color: var(--crust) !important;
 }
 
 .mx_AccessibleButton_kind_primary_outline:hover {
-  border-color: var(--red) !important;
+    border-color: var(--red) !important;
 }
 
 .mx_TabbedView_tabLabel_active {
-  background: transparent !important;
-  border: 1px solid var(--blue) !important;
-  color: var(--blue) !important;
+    background: transparent !important;
+    border: 1px solid var(--blue) !important;
+    color: var(--blue) !important;
 }
 
 .mx_TabbedView_tabLabel_active .mx_TabbedView_maskedIcon::before {
-  background: var(--blue) !important;
+    background: var(--blue) !important;
 }
 
-.mx_TabbedView_tabLabel:hover:not(.mx_TabbedView_tabLabel_active)
-  > .mx_TabbedView_maskedIcon::before {
-  background: var(--blue) !important;
+.mx_TabbedView_tabLabel:hover:not(.mx_TabbedView_tabLabel_active) > .mx_TabbedView_maskedIcon::before {
+    background: var(--blue) !important;
 }
 
 .mx_TabbedView_tabLabel:hover:not(.mx_TabbedView_tabLabel_active) {
-  color: var(--blue) !important;
+    color: var(--blue) !important;
 }
 
 .mx_ToggleSwitch {
-  background: var(--barelyvisible-blue);
+    background: var(--barelyvisible-blue);
 }
 
 .mx_ToggleSwitch_on {
-  background: var(--red) !important;
+    background: var(--red) !important;
 }
 
 .mx_StyledRadioButton input[type="radio"]:checked + div {
-  border-color: var(--red) !important;
+    border-color: var(--red) !important;
 }
 
 .mx_StyledRadioButton input[type="radio"]:checked + div > div {
-  background: var(--red);
+    background: var(--red)
 }
 
-.mx_Checkbox.mx_Checkbox_kind_solid
-  input[type="checkbox"]:checked
-  + label
-  > .mx_Checkbox_background {
-  background: var(--red);
-  border-color: var(--red);
+.mx_Checkbox.mx_Checkbox_kind_solid input[type="checkbox"]:checked + label > .mx_Checkbox_background {
+    background: var(--red);
+    border-color: var(--red);
 }
 
 .mx_BetaCard_betaPill {
-  background: var(--blue);
-  color: var(--mantle);
+    background: var(--blue);
+    color: var(--mantle);
 }
 
 /* text */
 .mx_NotificationBadge_count {
-  color: var(--translucent-crust) !important;
+    color: var(--translucent-crust) !important;
 }
 
 .mx_EmojiPicker_search input {
-  color: var(--translucent-text) !important;
+    color: var(--translucent-text) !important;
 }
 
 .mx_EmojiPicker_item {
-  opacity: 0.4;
+    opacity: 0.4;
 }
 
 .mx_EmojiPicker_footer .mx_EmojiPicker_item {
-  opacity: 0.6;
+    opacity: 0.6;
 }
 
 .mx_EmojiPicker_shortcode {
-  color: var(--surface2);
+    color: var(--surface2)
 }
 
 .mx_EmojiPicker_category_label {
-  color: var(--translucent-yellow);
+    color: var(--translucent-yellow)
 }
 
 .mx_EmojiPicker_quick_header {
-  color: var(--flamingo);
+    color: var(--flamingo)
 }
 
-.mx_GenericEventListSummary {
-  opacity: 0.3;
+.mx_GenericEventListSummary, .mx_ReadReceiptGroup {
+    opacity: 0.3;
 }
 
-.mx_GenericEventListSummary:hover {
-  opacity: 0.8;
+.mx_GenericEventListSummary:hover, .mx_EventTile:hover .mx_ReadReceiptGroup {
+    opacity: 0.8;
 }
 
 .mx_AccessibleButton_kind_link_inline {
-  color: var(--translucent-green) !important;
+    color: var(--translucent-green) !important;
 }
 
 .mx_SpacePanel_toggleCollapse {
-  background: var(--lavender) !important;
+    background: var(--lavender) !important
 }
 
 .mx_AccessibleButton {
-  color: var(--subtext1);
+    color: var(--subtext1);
 }
 
 .mx_ReadReceiptGroup_remainder {
-  color: var(--surface2) !important;
+    color: var(--surface2) !important;
 }
 
 .mx_BaseCard_Button_sublabel {
-  color: var(--surface2) !important;
+    color: var(--surface2) !important;
+}
+
+button[data-testid="dialog-cancel-button"] {
+    color: var(--blue) !important;
 }
 
 .mx_EventTile_line,
 .mx_RoomTopic {
-  color: var(--translucent-text);
+    color: var(--translucent-text);
 }
 
 .mx_EventTile_line a,
 .linkified {
-  color: var(--translucent-blue) !important;
+    color: var(--translucent-blue) !important;
 }
 
 a {
-  color: var(--translucent-blue) !important;
+    color: var(--translucent-blue) !important;
 }
 
 .mx_MessageTimestamp {
-  color: var(--surface2) !important;
+    color: var(--surface2) !important;
 }
 
 .mx_BaseCard_Button {
-  color: var(--text);
+    color: var(--text)
 }
 
 .mx_AccessibleButton_kind_link {
-  color: var(--yellow) !important;
+    color: var(--yellow) !important;
 }
 
 .mx_RightPanel h1 {
-  color: var(--rosewater);
+    color: var(--rosewater)
 }
 
 .mx_EventTile_details span {
-  color: var(--subtext1);
+    color: var(--subtext1)
 }
 
 .mx_EventTile_details .mx_DisambiguatedProfile span {
-  color: var(--text) !important;
+    color: var(--text) !important;
 }
 
 .mx_RoomView_MessageList .mx_EventTile::after {
-  background-color: var(--barelyvisible-pink) !important;
+    background-color: var(--barelyvisible-pink) !important;
 }
 
 hr,
 .mx_EmojiPicker_header,
 .mx_EmojiPicker_footer {
-  border-color: var(--barelyvisible-pink) !important;
+    border-color: var(--barelyvisible-pink) !important;
 }
 
 .mx_EventTile_details strong {
-  color: var(--sky);
+    color: var(--sky)
 }
 
 /* highlights */
 .mx_Pill.mx_AtRoomPill,
 .mx_Pill.mx_UserPill_me {
-  background: var(--translucent-yellow) !important;
-  color: var(--surface0) !important;
+    background: var(--translucent-yellow) !important;
+    color: var(--surface0) !important;
 }
 
 .mx_EventTile.mx_EventTile_highlight,
 .mx_EventTile.mx_EventTile_highlight .markdown-body,
 .mx_EventTile.mx_EventTile_highlight .mx_EventTile_edited {
-  color: var(--translucent-yellow);
+    color: var(--translucent-yellow)
 }
 
 .mx_EventTile_highlight.mx_EventTile_lastInSection .mx_EventTile_line {
-  background: var(--barelyvisible-blue) !important;
+    background: var(--barelyvisible-blue) !important;
 }
 
 .mx_EventTile_highlight.mx_EventTile_continuation .mx_EventTile_line {
-  background: var(--barelyvisible-yellow) !important;
+    background: var(--barelyvisible-yellow) !important;
 }
 
 .mx_EventTile:hover > .mx_EventTile_line {
-  background: var(--barelyvisible-surface1) !important;
+    background: var(--barelyvisible-surface1) !important;
+}
+
+.mx_RoomSearch_spotlightTriggerText, .mx_RoomSearch_shortcutPrompt {
+    color: var(--translucent-text) !important;
+}
+
+.mx_RoomSearch_icon {
+    background: var(--translucent-text) !important;
 }
 
 /* buttons */
 .mx_AccessibleButton.mx_AccessibleButton_kind_primary {
-  background: var(--red);
-  border-color: var(--red);
-  color: var(--rosewater) !important;
+    background: var(--red);
+    border-color: var(--red);
+    color: var(--rosewater) !important;
 }
 
 .mx_AccessibleButton_kind_danger {
-  background: #f33 !important;
-  color: var(--yellow) !important;
+    background: #f33 !important;
+    color: var(--yellow) !important;
 }
 
 .mx_AccessibleButton.mx_AccessibleButton_kind_danger_outline.mx_AccessibleButton_disabled {
-  color: var(--maroon);
-  border-color: var(--maroon);
+    color: var(--maroon);
+    border-color: var(--maroon);
 }
 
-.mx_AccessibleButton {
-  border-color: var(--barelyvisible-overlay2);
+.mx_NotificationBadge {
+    border: none !important;
 }
 
-.mx_AccessibleButton:hover {
-  border-color: var(--barelyvisible-text);
+.mx_NotificationBadge_dot {
+    border: 2px solid var(--blue) !important;
+}
+
+.mx_AccessibleButton:not(.mx_NotificationBadge) {
+    background: transparent !important;
+    border-color: var(--barelyvisible-overlay2);
+}
+
+.mx_AccessibleButton::before {
+    background: var(--translucent-blue) !important;
+}
+
+summary {
+    color: var(--blue) !important;
+}
+
+.mx_AccessibleButton:not(.mx_NotificationBadge):hover {
+    background: transparent !important;
+    border-color: var(--blue) !important;
 }
 
 /* username colours */
 .mx_Username_color1 {
-  color: var(--translucent-sapphire);
+    color: var(--translucent-sapphire);
 }
 
 .mx_Username_color2 {
-  color: var(--translucent-peach);
+    color: var(--translucent-peach);
 }
 
 .mx_Username_color3 {
-  color: var(--translucent-teal);
+    color: var(--translucent-teal);
 }
 
 .mx_Username_color4 {
-  color: var(--translucent-mauve);
+    color: var(--translucent-mauve);
 }
 
 .mx_Username_color5 {
-  color: var(--translucent-flamingo);
+    color: var(--translucent-flamingo);
 }
 
 .mx_Username_color6 {
-  color: var(--translucent-pink);
+    color: var(--translucent-pink);
 }
 
 .mx_Username_color7 {
-  color: var(--translucent-maroon);
+    color: var(--translucent-maroon);
 }
 
 .mx_Username_color8 {
-  color: var(--translucent-green);
+    color: var(--translucent-green);
 }
 
 /* icons */
 .mx_EventTile_e2eIcon {
-  opacity: 0.2;
+    opacity: 0.2;
 }
